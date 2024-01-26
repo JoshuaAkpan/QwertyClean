@@ -1,0 +1,53 @@
+/* .preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    transition: opacity 10s, visibility 8s;
+    z-index: 100000;
+}
+
+
+.dot, .dot2, .dot3 {
+    background-color: #4285f4;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    animation-name: slide;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.dot {
+    animation-delay: 0.5s;
+}
+
+.dot2 {
+    
+    animation-delay: 1s;
+}
+
+.dot3 {
+    animation-delay: 1.5s;
+}
+
+@keyframes slide{
+    from {
+        opacity: 100%;
+    } 
+    to {
+        opacity: 0%;
+    }
+}
+
+.preloader-hidden {
+    opacity: 0;
+    visibility: hidden;
+} */

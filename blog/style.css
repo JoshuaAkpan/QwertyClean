@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,300;0,400;0,600;0,900;1,100&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Archivo', sans-serif;
+    --primary-text-color: #4285f4;
+    --secondary-text-color: rgb(255, 255, 255);    
+    --tertiary-text-color: #FCDD19;    
+}
+
+.blog-post{
+    height: 100vh;
+    background-color: var(--secondary-text-color);
+    padding: 200px;
+    color: var(--primary-text-color);
+
+}
+
+.blog-header-text{
+    font-size: xx-large;
+}
